@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: aula-spring-security
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1061393621858-f47f40uechosiosgt3gvjm85h21albjp.apps.googleusercontent.com
+            client-secret: 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
+      resourceserver:
+        jwt:
+          issuer-uri: https://accounts.google.com
